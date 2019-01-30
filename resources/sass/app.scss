@@ -1,0 +1,34 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #4e4e50;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+@mixin height($heiht) {
+  height: $heiht;
+  object-fit: cover;
+}
+
+
+.image-300 {
+  @include height(330px);
+}
+
+.image-cardview {
+  @include  height(150px);
+}
+
+.footer {
+  bottom: 0;
+}
+
+.promociones {
+  border-radius: 0;
+}
+
+
